@@ -1,0 +1,163 @@
+html{
+  background-color: #c7c6c6 ;
+  font-family: poppins, sans-serif;
+}
+h1 {
+  color: white;
+  background: #696969;
+  width: 270px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container .tambahBarang {
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 20px;
+  background-color: #696969 ;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #696969;
+}
+
+table th {
+  font-weight: bold;
+  padding: 50px;
+  color: #fff;
+  background-color: #696969;
+  border-top: 1px #696969;
+  border-bottom: 1px #696969;
+  border-right: 1px #696969;
+  border-left: 1px #696969;
+}
+
+table img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #696969;
+}
+
+table td {
+  padding: 15px;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #696969;
+}
+
+img {
+  width: 60px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.tombolhapus {
+  border: 1px solid #ff0800;
+  background: #ff0800;
+  height: 22px;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.tombolubah {
+  border: 1px solid #11ff00;
+  background: #11ff00;
+  height: 22px;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.container header{
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.container nav{
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  background-color: #696969;
+}
+
+.container nav a{
+  display: inline-block;
+  color: white;
+  padding: 15px;
+}
+
+.form {
+  padding: 20px;
+  background-color: #696969;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.jual {
+  display: block;
+  width: 1000px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  background-color: #696969;
+}
+
+input[type="submit"] {
+  background: #696969;
+  border-radius: 21px;
+  border: none;
+  box-shadow: 0px 1px 8px #ffffff;
+  cursor: pointer;
+  color: white;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 42.3px;
+  margin: 0 auto;
+  margin-top: 50px;
+  transition: 0.25px;
+  width: 153px;
+}
+
+.container footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  background-color: #696969;
+  color: white;
+  padding: 10px;
+}
+
