@@ -1,3 +1,4 @@
+<?php require('header.php'); ?>
 <?php
 error_reporting(E_ALL);
 include_once 'koneksi.php';
